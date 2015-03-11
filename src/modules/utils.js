@@ -46,7 +46,14 @@ module.exports = (function () {
         }
     };
 
-
+    /**
+     * Format the events from the Google Calendar API.
+     * Just looping thru the events.items Array and recreating a specific
+     * Array with the needed informations.
+     *
+     * @param eventsFromGoogle
+     * @returns {Array|*}
+     */
     exports.formatEventsFromCalendar = function (eventsFromGoogle) {
         if(eventsFromGoogle){
             var events = JSON.parse(eventsFromGoogle);

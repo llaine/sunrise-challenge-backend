@@ -12,15 +12,7 @@ var request = require("request"),
 
 function handleResponse(err, cbOk, cbError){
     if(err){
-        switch (err.error.code){
-            case 404:
-
-                break;
-            case 401:
-
-                break;
-        }
-        cbError();
+        cbError(err.error.code);
     }else{
         cbOk();
     }
