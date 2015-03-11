@@ -1,3 +1,4 @@
 {
-  "CALENDAR_LIST" : "https://www.googleapis.com/calendar/v3/users/me/calendarList/"
+  "CALENDAR_LIST" : "https://www.googleapis.com/calendar/v3/users/me/calendarList/",
+  "EVENT_LIST_FOR_CAL": "https://www.googleapis.com/calendar/v3/calendars/"
 }
