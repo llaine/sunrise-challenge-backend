@@ -1,0 +1,6 @@
+{
+  "CLIENT_ID" : "760866133392-7mmild2pptc487s2tsn4a3d3s320gbbm.apps.googleusercontent.com",
+  "CLIENT_SECRET": "hFiSbQgISE-fQHD88j9qvBFU",
+  "CB_URL": "http://localhost:3000/authenticate/callback",
+  "SCOPE": "https://www.googleapis.com/auth/calendar"
+}
