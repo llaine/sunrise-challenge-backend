@@ -38,6 +38,16 @@ module.exports = (function () {
     };
 
     /**
+     * Log the error in the console.
+     */
+    exports.error = function () {
+        if(arguments[0]){
+            arguments[0] = '[' + formatDate(new Date()) + '] ERROR : from ' + arguments[0] + '\n';
+            console.error.apply(console, arguments);
+        }
+    };
+
+    /**
      * The date format must be done by hand
      * @param d
      * @returns {string}

@@ -1,0 +1,1051 @@
+{
+  "kind": "calendar#events",
+  "etag": "\"1426116352882000\"",
+  "summary": "darksioul6@gmail.com",
+  "updated": "2015-03-11T23:25:52.882Z",
+  "timeZone": "Europe/Brussels",
+  "accessRole": "owner",
+  "defaultReminders": [
+    {
+      "method": "popup",
+      "minutes": 30
+    },
+    {
+      "method": "email",
+      "minutes": 30
+    }
+  ],
+  "nextSyncToken": "CNDq_LS5ocQCENDq_LS5ocQCGAU=",
+  "items": [
+    {
+      "kind": "calendar#event",
+      "etag": "\"2759366324708000\"",
+      "id": "_6p2kce1m84sjab9j8l13ab9k6crj4ba26cr4cba18cs3ehi5852k6dpn68",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZwMmtjZTFtODRzamFiOWo4bDEzYWI5azZjcmo0YmEyNmNyNGNiYTE4Y3MzZWhpNTg1Mms2ZHBuNjggZGFya3Npb3VsNkBt",
+      "created": "2013-09-20T13:19:22.000Z",
+      "updated": "2013-09-20T13:19:22.354Z",
+      "summary": "Faire sig de syscom sa",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2013-09-24T07:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2013-09-24T07:30:00+02:00"
+      },
+      "iCalUID": "6EF86A95-3EB5-4372-B36F-AC87FEAEC772",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2763328519334000\"",
+      "id": "_6sq48ga488p36b9n60sjcb9k8ks3ib9o6gpjgb9n60r4cci28gpk2dpp70",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZzcTQ4Z2E0ODhwMzZiOW42MHNqY2I5azhrczNpYjlvNmdwamdiOW42MHI0Y2NpMjhncGsyZHBwNzAgZGFya3Npb3VsNkBt",
+      "created": "2013-10-13T11:37:39.000Z",
+      "updated": "2013-10-13T11:37:39.667Z",
+      "summary": "Anniversaire martinez l'appeler !! ",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2013-10-15T17:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2013-10-15T19:00:00+02:00"
+      },
+      "iCalUID": "74DADB23-7096-4E89-8438-706F2BD3A798",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2763330734206000\"",
+      "id": "_61134hho84r48b9h6ss3cb9k74q38b9o6sqjgba56d2j0d1m7533ighk6g",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzYxMTM0aGhvODRyNDhiOWg2c3MzY2I5azc0cTM4YjlvNnNxamdiYTU2ZDJqMGQxbTc1MzNpZ2hrNmcgZGFya3Npb3VsNkBt",
+      "created": "2013-10-13T11:56:07.000Z",
+      "updated": "2013-10-13T11:56:07.103Z",
+      "summary": "Anniversaire Elo",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "date": "2013-11-09"
+      },
+      "end": {
+        "date": "2013-11-10"
+      },
+      "iCalUID": "0B2F8A6D-1786-4944-8758-E3E0469F9B44",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 450
+          },
+          {
+            "method": "popup",
+            "minutes": 30
+          }
+        ]
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2765601871194000\"",
+      "id": "_8cpkachl70qjeba3892j6b9k6d2k4ba28d346ba66oqj4h2584r32gi58g",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhjcGthY2hsNzBxamViYTM4OTJqNmI5azZkMms0YmEyOGQzNDZiYTY2b3FqNGgyNTg0cjMyZ2k1OGcgZGFya3Npb3VsNkBt",
+      "created": "2013-10-26T15:22:15.000Z",
+      "updated": "2013-10-26T15:22:15.597Z",
+      "summary": "Arrivée Eloise ",
+      "location": "Aéroport de bordeaux ",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2013-10-29T08:25:00+01:00"
+      },
+      "end": {
+        "dateTime": "2013-10-29T09:25:00+01:00"
+      },
+      "iCalUID": "C3E25857-CBE3-43EB-BCFC-F652DEA61BED",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2768526622566000\"",
+      "id": "_64r32dq275144b9i74qk8b9k8gp38b9o88rjeb9k64sj2dq484q32dq588",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjMyZHEyNzUxNDRiOWk3NHFrOGI5azhncDM4YjlvODhyamViOWs2NHNqMmRxNDg0cTMyZHE1ODggZGFya3Npb3VsNkBt",
+      "created": "2013-11-12T13:34:29.000Z",
+      "updated": "2013-11-12T13:35:11.283Z",
+      "summary": "Faire version itérative de tri par insertion avec 4 elem (3/4/5/7)",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2013-11-19T07:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2013-11-19T08:00:00+01:00"
+      },
+      "iCalUID": "1617B9BB-295D-4D24-8B77-41917DA417EB",
+      "sequence": 5,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2769736030052000\"",
+      "id": "_74p34e1h8l23ab9k64s36b9k8gq3eb9o6gqj6b9m6t132ha18go32d1i6o",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzc0cDM0ZTFoOGwyM2FiOWs2NHMzNmI5azhncTNlYjlvNmdxajZiOW02dDEzMmhhMThnbzMyZDFpNm8gZGFya3Npb3VsNkBt",
+      "created": "2013-11-19T13:32:28.000Z",
+      "updated": "2013-11-19T13:33:35.026Z",
+      "summary": "Ecrire un algo d'intersection",
+      "description": "De deux tableaux ordonnées.\nCad n tableau contenant uniquement les éléments commun aux deux.",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2013-11-26T09:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2013-11-26T10:00:00+01:00"
+      },
+      "iCalUID": "92281ED5-4183-4D47-8453-67B1EAD01426",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2769742710954000\"",
+      "id": "_612jedi174sj8b9p8p2j8b9k8grjgba28cr30ba184qk4e9k8oqj6dph6c",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzYxMmplZGkxNzRzajhiOXA4cDJqOGI5azhncmpnYmEyOGNyMzBiYTE4NHFrNGU5azhvcWo2ZHBoNmMgZGFya3Npb3VsNkBt",
+      "created": "2013-11-19T14:28:05.000Z",
+      "updated": "2013-11-19T14:29:15.477Z",
+      "summary": "SQLI Entretien",
+      "location": "Hâll Batiment A29",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2013-11-21T09:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2013-11-21T10:00:00+01:00"
+      },
+      "iCalUID": "0E76A994-9FE4-4D78-BC60-AA5B94F53713",
+      "sequence": 5,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2769742959342000\"",
+      "id": "_6d230ci38csk8ba48os3gb9k60qk2ba26sqk4b9j64p3cc9h68s4achi74",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZkMjMwY2kzOGNzazhiYTQ4b3MzZ2I5azYwcWsyYmEyNnNxazRiOWo2NHAzY2M5aDY4czRhY2hpNzQgZGFya3Npb3VsNkBt",
+      "created": "2013-11-19T14:30:46.000Z",
+      "updated": "2013-11-19T14:31:19.671Z",
+      "summary": "CGI ",
+      "location": "Salle 3 A 29",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2013-11-21T11:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2013-11-21T12:00:00+01:00"
+      },
+      "iCalUID": "3D02CC9D-DF88-405A-B75B-31261128E229",
+      "sequence": 5,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2769743008838000\"",
+      "id": "_6gsj8h9g70rkaba38cp3ab9k61238b9o611k4b9p68rk6e1i8cp3ghi48k",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZnc2o4aDlnNzBya2FiYTM4Y3AzYWI5azYxMjM4YjlvNjExazRiOXA2OHJrNmUxaThjcDNnaGk0OGsgZGFya3Npb3VsNkBt",
+      "created": "2013-11-19T14:31:22.000Z",
+      "updated": "2013-11-19T14:31:44.419Z",
+      "summary": "SOGETI",
+      "location": "Salle 3 A 29",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2013-11-21T15:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2013-11-21T16:00:00+01:00"
+      },
+      "iCalUID": "494E087E-CC25-40D4-80CB-927C82C28FDE",
+      "sequence": 5,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2784605942529000\"",
+      "id": "_8gs48e1i88oj0b9l6go3gb9k8kojgb9p8ko38ba18h130cpk6d1j0d9l60",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhnczQ4ZTFpODhvajBiOWw2Z28zZ2I5azhrb2pnYjlwOGtvMzhiYTE4aDEzMGNwazZkMWowZDlsNjAgZGFya3Npb3VsNkBt",
+      "created": "2014-02-13T14:48:42.000Z",
+      "updated": "2014-02-13T14:49:31.307Z",
+      "summary": "Prélevement mutuelle des motards 254,49 euros",
+      "location": "Pessac ",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "date": "2014-04-15"
+      },
+      "end": {
+        "date": "2014-04-16"
+      },
+      "transparency": "transparent",
+      "iCalUID": "D8D82B10-5408-4E18-9E04-ADB0343C0550",
+      "sequence": 4,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 9540
+          },
+          {
+            "method": "email",
+            "minutes": 30
+          }
+        ]
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2785103037708000\"",
+      "id": "_64p4aci58p2j6b9p85244b9k6srjaba16ookab9k6krjghhl88rjida374",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cDRhY2k1OHAyajZiOXA4NTI0NGI5azZzcmphYmExNm9va2FiOWs2a3JqZ2hobDg4cmppZGEzNzQgZGFya3Npb3VsNkBt",
+      "created": "2014-02-16T11:51:36.000Z",
+      "updated": "2014-02-16T11:51:58.854Z",
+      "summary": "Chercher tatie",
+      "location": "Clinique thiers",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-02-25T09:30:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-02-25T10:30:00+01:00"
+      },
+      "iCalUID": "12E2EFE3-9ADB-4775-A61E-4578F5B795C9",
+      "sequence": 6,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2785634926586000\"",
+      "id": "_8krk2e1k6osj0ba56oo3eb9k70s3eb9p70o30b9m8d0kcc2674skagi370",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhrcmsyZTFrNm9zajBiYTU2b28zZWI5azcwczNlYjlwNzBvMzBiOW04ZDBrY2MyNjc0c2thZ2kzNzAgZGFya3Npb3VsNkBt",
+      "created": "2014-02-12T13:52:28.000Z",
+      "updated": "2014-02-19T13:44:23.293Z",
+      "summary": "Cours d'anglais ",
+      "location": "P15",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-03-24T10:30:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-03-24T12:30:00+01:00"
+      },
+      "iCalUID": "E7A84690-E607-4887-9800-6CAF0F99EBC8",
+      "sequence": 1,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2816800148271000\"",
+      "id": "mk80a0hi57q8ee2mslrgujhdig",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bWs4MGEwaGk1N3E4ZWUybXNscmd1amhkaWcgZGFya3Npb3VsNkBt",
+      "created": "2014-08-14T11:43:40.000Z",
+      "updated": "2014-08-21T21:07:59.300Z",
+      "summary": "Nantes bordeaux",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-08-22T18:00:00+02:00",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2014-08-22T19:00:00+02:00",
+        "timeZone": "UTC"
+      },
+      "iCalUID": "mk80a0hi57q8ee2mslrgujhdig@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 10080
+          },
+          {
+            "method": "popup",
+            "minutes": 9623
+          },
+          {
+            "method": "popup",
+            "minutes": 1440
+          },
+          {
+            "method": "popup",
+            "minutes": 2880
+          }
+        ]
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2805611723626000\"",
+      "id": "_8p1kcdi18d1k6b9p61144b9k68q48b9p68qj6b9m612jiea28h0jadho8g",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhwMWtjZGkxOGQxazZiOXA2MTE0NGI5azY4cTQ4YjlwNjhxajZiOW02MTJqaWVhMjhoMGphZGhvOGcgZGFya3Npb3VsNkBt",
+      "created": "2014-02-13T14:49:37.000Z",
+      "updated": "2014-10-14T17:44:57.208Z",
+      "summary": "Prélevement mutuelle des motards 254,49",
+      "location": "Pessac",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "date": "2014-10-15"
+      },
+      "end": {
+        "date": "2014-10-16"
+      },
+      "transparency": "transparent",
+      "iCalUID": "FCF6ACCC-90BB-424D-9253-60E99BDA568D",
+      "sequence": 3,
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2828124571655000\"",
+      "id": "_68p3gohoc8sj2bb5cop38b9k74r6cb9p6ssm2bb664q3ip1n71gj8db3ck",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY4cDNnb2hvYzhzajJiYjVjb3AzOGI5azc0cjZjYjlwNnNzbTJiYjY2NHEzaXAxbjcxZ2o4ZGIzY2sgZGFya3Npb3VsNkBt",
+      "created": "2014-10-07T10:46:18.000Z",
+      "updated": "2014-11-08T11:23:13.344Z",
+      "summary": "Anniv elo",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "date": "2014-11-09"
+      },
+      "end": {
+        "date": "2014-11-10"
+      },
+      "iCalUID": "228b8b91-ef24-496f-979a-f149d78a45ce",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 1440
+          },
+          {
+            "method": "popup",
+            "minutes": 2880
+          }
+        ]
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2828963392301000\"",
+      "id": "_64o62oj56so66b9m6hhm4b9k65h64bb16sojcb9pc8qm4c1m71hj8c1gco",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0bzYyb2o1NnNvNjZiOW02aGhtNGI5azY1aDY0YmIxNnNvamNiOXBjOHFtNGMxbTcxaGo4YzFnY28gZGFya3Npb3VsNkBt",
+      "created": "2014-10-05T19:02:33.000Z",
+      "updated": "2014-11-19T20:07:18.652Z",
+      "summary": "Projection RapFr utopia",
+      "description": "du sale",
+      "location": "Cinéma Utopia, 5 Place Camille Jullian, Bordeaux, FR",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-11-20T20:30:00+01:00",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2014-11-20T21:30:00+01:00",
+        "timeZone": "UTC"
+      },
+      "iCalUID": "10abe70c-64cb-41bb-a716-9b5b068c400f",
+      "sequence": 0,
+      "extendedProperties": {
+        "shared": {
+          "sunrise:place": "{\"name\":\"Cinéma Utopia\",\"address\":{\"city\":\"Bordeaux\",\"country\":\"FR\",\"street\":\"5 Place Camille Jullian\"},\"geometry\":{\"location\":{\"lat\":44.839122,\"lng\":-0.572425}}}"
+        }
+      },
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 1440
+          },
+          {
+            "method": "popup",
+            "minutes": 2880
+          }
+        ]
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834032849916000\"",
+      "id": "_6oqk2ea48cqk6ba284o3ib9k6p1k6ba164pj4b9i850jed1l8ooj8cpo68",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZvcWsyZWE0OGNxazZiYTI4NG8zaWI5azZwMWs2YmExNjRwajRiOWk4NTBqZWQxbDhvb2o4Y3BvNjggZGFya3Npb3VsNkBt",
+      "created": "2014-11-26T15:40:24.000Z",
+      "updated": "2014-11-26T15:40:24.958Z",
+      "summary": "Partiel Anglais",
+      "location": "Batiment A10 (Grand Amphi chimie)",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-10T16:30:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-10T18:00:00+01:00"
+      },
+      "iCalUID": "65A9DC5C-BA09-46CC-A132-2AA745F14382",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834033008508000\"",
+      "id": "_8os3ie258ks34b9o6d346b9k6go38b9p8d144b9h6gqjcga174s3cgpn8o",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvczNpZTI1OGtzMzRiOW82ZDM0NmI5azZnbzM4YjlwOGQxNDRiOWg2Z3FqY2dhMTc0czNjZ3BuOG8gZGFya3Npb3VsNkBt",
+      "created": "2014-11-26T15:41:44.000Z",
+      "updated": "2014-11-26T15:41:44.254Z",
+      "summary": "Partiel réseau",
+      "location": "A10 GAC",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-15T11:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-15T12:30:00+01:00"
+      },
+      "iCalUID": "F898EE82-83FC-4404-9CBB-1456AA986C7F",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834033150562000\"",
+      "id": "_6gsj2g9i710k6b9g6t24ab9k6h1jiba18cr36b9i6l344dpn6d0jad1l68",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZnc2oyZzlpNzEwazZiOWc2dDI0YWI5azZoMWppYmExOGNyMzZiOWk2bDM0NGRwbjZkMGphZDFsNjggZGFya3Npb3VsNkBt",
+      "created": "2014-11-26T15:41:05.000Z",
+      "updated": "2014-11-26T15:42:55.281Z",
+      "summary": "Partiel marketing",
+      "location": "A10 GAC",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-15T08:30:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-15T10:00:00+01:00"
+      },
+      "iCalUID": "491A28AC-07DE-44C9-AC63-25FB773A5452",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834033178596000\"",
+      "id": "_6cs46gpo8p2jeb9i74r34b9k6p144ba26crk8b9l6kpk8gpl8p1k8c1n8k",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZjczQ2Z3BvOHAyamViOWk3NHIzNGI5azZwMTQ0YmEyNmNyazhiOWw2a3BrOGdwbDhwMWs4YzFuOGsgZGFya3Npb3VsNkBt",
+      "created": "2014-11-26T15:41:53.000Z",
+      "updated": "2014-11-26T15:43:09.298Z",
+      "summary": "Partiel RO",
+      "location": "B6 Amphi bio végé 2",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-16T08:30:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-16T10:00:00+01:00"
+      },
+      "iCalUID": "38CC8FE7-2962-46BB-B37D-553DC5FCD07E",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834033259160000\"",
+      "id": "_6gsj6d9i60r3eba38l0j0b9k70s3gb9p64r34b9k6oq4cghk7133ihi16g",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZnc2o2ZDlpNjByM2ViYTM4bDBqMGI5azcwczNnYjlwNjRyMzRiOWs2b3E0Y2doazcxMzNpaGkxNmcgZGFya3Npb3VsNkBt",
+      "created": "2014-11-26T15:43:49.000Z",
+      "updated": "2014-11-26T15:43:49.580Z",
+      "summary": "Partiel AD",
+      "location": "B6 Amphi bio végé 2",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-16T11:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-16T12:30:00+01:00"
+      },
+      "iCalUID": "49352067-CEA0-4888-9162-464FB48F9FA4",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834033393626000\"",
+      "id": "_68pj6di28grjiba16crkcb9k6opkab9o6513aba474qk2ha688r3ae1o68",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY4cGo2ZGkyOGdyamliYTE2Y3JrY2I5azZvcGthYjlvNjUxM2FiYTQ3NHFrMmhhNjg4cjNhZTFvNjggZGFya3Npb3VsNkBt",
+      "created": "2014-11-26T15:44:56.000Z",
+      "updated": "2014-11-26T15:44:56.813Z",
+      "summary": "Partiel SICF",
+      "location": "A10 GAC",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-18T14:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-18T15:30:00+01:00"
+      },
+      "iCalUID": "2336BD79-A37F-463E-81B5-D95AEFB65882",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834750627710000\"",
+      "id": "1hpme0fjm7hvchtpa7j40taalg",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWhwbWUwZmptN2h2Y2h0cGE3ajQwdGFhbGcgZGFya3Npb3VsNkBt",
+      "created": "2014-11-30T19:21:53.000Z",
+      "updated": "2014-11-30T19:21:53.855Z",
+      "summary": "Fabien Potencier @ hack.summit()",
+      "description": "hack.summit() is a virtual conference where you can learn from the world’s most renowned programming language creators, open-source contributors, and thought leaders",
+      "location": "https://hacksummit.org",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-01T21:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-01T22:00:00+01:00"
+      },
+      "iCalUID": "1hpme0fjm7hvchtpa7j40taalg@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834750691258000\"",
+      "id": "ujl88m2ap81lma9311k52k7eqo",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=dWpsODhtMmFwODFsbWE5MzExazUyazdlcW8gZGFya3Npb3VsNkBt",
+      "created": "2014-11-30T19:22:25.000Z",
+      "updated": "2014-11-30T19:22:25.629Z",
+      "summary": "Hakon Wium Le @ hack.summit()",
+      "description": "hack.summit() is a virtual conference where you can learn from the world’s most renowned programming language creators, open-source contributors, and thought leaders",
+      "location": "https://hacksummit.org",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-02T20:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-02T21:00:00+01:00"
+      },
+      "iCalUID": "ujl88m2ap81lma9311k52k7eqo@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2834860073976000\"",
+      "id": "_68o4cdhm691kab9l70s38b9k85134b9o8crj6ba4610k6e9l84o3ichj64",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY4bzRjZGhtNjkxa2FiOWw3MHMzOGI5azg1MTM0YjlvOGNyajZiYTQ2MTBrNmU5bDg0bzNpY2hqNjQgZGFya3Npb3VsNkBt",
+      "created": "2014-11-12T11:06:28.000Z",
+      "updated": "2014-12-01T10:33:56.988Z",
+      "summary": "Hack sUmmiit",
+      "description": "179NAGCXOY",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-01T12:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-04T13:00:00+01:00"
+      },
+      "iCalUID": "20F662CE-5884-4AB2-8C73-D0AC95A09231",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2835255633679000\"",
+      "id": "e6q7k8ki1o1ecsool4nmmj9ft0",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTZxN2s4a2kxbzFlY3Nvb2w0bm1tajlmdDAgZGFya3Npb3VsNkBt",
+      "created": "2014-11-30T19:22:54.000Z",
+      "updated": "2014-12-03T17:30:16.904Z",
+      "summary": "Scott Chacon @ hack.summit()",
+      "description": "hack.summit() is a virtual conference where you can learn from the world’s most renowned programming language creators, open-source contributors, and thought leaders",
+      "location": "https://hacksummit.org",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-03T19:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-03T20:00:00+01:00"
+      },
+      "iCalUID": "e6q7k8ki1o1ecsool4nmmj9ft0@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2837488455734000\"",
+      "id": "_8l1kcgpo8cp46b9h8d1j0b9k6gsk6ba264rjib9j84sj6h1m6p342h1n8o",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhsMWtjZ3BvOGNwNDZiOWg4ZDFqMGI5azZnc2s2YmEyNjRyamliOWo4NHNqNmgxbTZwMzQyaDFuOG8gZGFya3Npb3VsNkBt",
+      "created": "2014-11-26T15:44:26.000Z",
+      "updated": "2014-12-16T15:37:07.867Z",
+      "summary": "Partiel AO",
+      "location": "B6 ABV 2",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-12-16T14:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-12-16T17:00:00+01:00"
+      },
+      "iCalUID": "ECFC8C2C-1CC0-449C-B179-3A93D66FAD7F",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2843503183702000\"",
+      "id": "c32van0qhlmc9hqlj807bvsu1g",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=YzMydmFuMHFobG1jOWhxbGo4MDdidnN1MWcgZGFya3Npb3VsNkBt",
+      "created": "2015-01-20T10:59:51.000Z",
+      "updated": "2015-01-20T10:59:51.851Z",
+      "summary": "Scalability & High performance of legacy php application",
+      "description": "Pour ce second Meetup PHP, c'est Arnaud Lemaire qui va puiser dans son stock (semble-t'il inépuisable!) de sujets, et nous parler Scaling et Haute Performance d'applications PHP legacy. \n\nAu programme:\n\n- Quels sont les concepts clés autour de ces sujets ?\n- Comment améliorer les perfs de l'application avec un minimum d'intervention sur le code ?\n- Comment améliorer les perfs de la base de donnée ?\n- Le tout à travers des retours d'XP\n\nOn terminera comme la dernière fois par une bonne discussion autour d'un apéro collaboratif.\n\nDétails : http://www.meetup.com/Bordeaux-PHP-Meetup/events/219713593/",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2015-01-21T18:30:00+01:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "dateTime": "2015-01-21T21:30:00+01:00",
+        "timeZone": "Europe/Paris"
+      },
+      "iCalUID": "c32van0qhlmc9hqlj807bvsu1g@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2845108437270000\"",
+      "id": "_65348ghl750k4ba18koj0b9k6d132ba28gq34ba364pjgc9j6kr32dq470",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY1MzQ4Z2hsNzUwazRiYTE4a29qMGI5azZkMTMyYmEyOGdxMzRiYTM2NHBqZ2M5ajZrcjMyZHE0NzAgZGFya3Npb3VsNkBt",
+      "created": "2015-01-29T17:56:58.000Z",
+      "updated": "2015-01-29T17:56:58.635Z",
+      "summary": "Nouvel événement",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2015-01-27T11:30:00+01:00"
+      },
+      "end": {
+        "dateTime": "2015-01-30T11:15:00+01:00"
+      },
+      "iCalUID": "1FDB59AB-AE10-43B1-BD42-C138135617D8",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2847804566388000\"",
+      "id": "275hi4jj3srk3qu8crt5hjj4l4",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mjc1aGk0amozc3JrM3F1OGNydDVoamo0bDQgZGFya3Npb3VsNkBt",
+      "created": "2014-02-07T08:05:34.000Z",
+      "updated": "2015-02-14T08:24:43.194Z",
+      "summary": "Envoyer courriel a benois-p",
+      "description": "Envoyer par TD un rapport + le code appelé TD1-2LOUIS_LAINE.zip \nL'objet sera TDPOO1-2LLAINE\njenny.benois@labri.fr\nPour ceux qui n'envoie paés ZERO ! ",
+      "location": "Université Bordeaux 1, Cours de la Libération, Talence, France",
+      "colorId": "11",
+      "creator": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "organizer": {
+        "email": "darksioul6@gmail.com",
+        "displayName": "Louis Lainé",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2014-02-13T16:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2014-02-13T17:00:00+01:00"
+      },
+      "iCalUID": "275hi4jj3srk3qu8crt5hjj4l4@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    }
+  ]
+}

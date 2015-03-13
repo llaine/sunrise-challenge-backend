@@ -1,0 +1,614 @@
+[
+  {
+    "id": "_6p2kce1m84sjab9j8l13ab9k6crj4ba26cr4cba18cs3ehi5852k6dpn68",
+    "status": "confirmed",
+    "title": "Faire sig de syscom sa",
+    "start": {
+      "dateTime": "2013-09-24T07:00:00+02:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2013-09-24T07:30:00+02:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "_6sq48ga488p36b9n60sjcb9k8ks3ib9o6gpjgb9n60r4cci28gpk2dpp70",
+    "status": "confirmed",
+    "title": "Anniversaire martinez l'appeler !! ",
+    "start": {
+      "dateTime": "2013-10-15T17:00:00+02:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2013-10-15T19:00:00+02:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "_61134hho84r48b9h6ss3cb9k74q38b9o6sqjgba56d2j0d1m7533ighk6g",
+    "status": "confirmed",
+    "title": "Anniversaire Elo",
+    "start": {
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "_8cpkachl70qjeba3892j6b9k6d2k4ba28d346ba66oqj4h2584r32gi58g",
+    "status": "confirmed",
+    "title": "Arrivée Eloise ",
+    "start": {
+      "dateTime": "2013-10-29T08:25:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2013-10-29T09:25:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Aéroport de bordeaux "
+  },
+  {
+    "id": "_64r32dq275144b9i74qk8b9k8gp38b9o88rjeb9k64sj2dq484q32dq588",
+    "status": "confirmed",
+    "title": "Faire version itérative de tri par insertion avec 4 elem (3/4/5/7)",
+    "start": {
+      "dateTime": "2013-11-19T07:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2013-11-19T08:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "_74p34e1h8l23ab9k64s36b9k8gq3eb9o6gqj6b9m6t132ha18go32d1i6o",
+    "status": "confirmed",
+    "title": "Ecrire un algo d'intersection",
+    "start": {
+      "dateTime": "2013-11-26T09:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2013-11-26T10:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "_612jedi174sj8b9p8p2j8b9k8grjgba28cr30ba184qk4e9k8oqj6dph6c",
+    "status": "confirmed",
+    "title": "SQLI Entretien",
+    "start": {
+      "dateTime": "2013-11-21T09:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2013-11-21T10:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Hâll Batiment A29"
+  },
+  {
+    "id": "_6d230ci38csk8ba48os3gb9k60qk2ba26sqk4b9j64p3cc9h68s4achi74",
+    "status": "confirmed",
+    "title": "CGI ",
+    "start": {
+      "dateTime": "2013-11-21T11:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2013-11-21T12:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Salle 3 A 29"
+  },
+  {
+    "id": "_6gsj8h9g70rkaba38cp3ab9k61238b9o611k4b9p68rk6e1i8cp3ghi48k",
+    "status": "confirmed",
+    "title": "SOGETI",
+    "start": {
+      "dateTime": "2013-11-21T15:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2013-11-21T16:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Salle 3 A 29"
+  },
+  {
+    "id": "_8gs48e1i88oj0b9l6go3gb9k8kojgb9p8ko38ba18h130cpk6d1j0d9l60",
+    "status": "confirmed",
+    "title": "Prélevement mutuelle des motards 254,49 euros",
+    "start": {
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Pessac "
+  },
+  {
+    "id": "_64p4aci58p2j6b9p85244b9k6srjaba16ookab9k6krjghhl88rjida374",
+    "status": "confirmed",
+    "title": "Chercher tatie",
+    "start": {
+      "dateTime": "2014-02-25T09:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-02-25T10:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Clinique thiers"
+  },
+  {
+    "id": "_8krk2e1k6osj0ba56oo3eb9k70s3eb9p70o30b9m8d0kcc2674skagi370",
+    "status": "confirmed",
+    "title": "Cours d'anglais ",
+    "start": {
+      "dateTime": "2014-03-24T10:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-03-24T12:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "P15"
+  },
+  {
+    "id": "mk80a0hi57q8ee2mslrgujhdig",
+    "status": "confirmed",
+    "title": "Nantes bordeaux",
+    "start": {
+      "dateTime": "2014-08-22T18:00:00+02:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-08-22T19:00:00+02:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "_8p1kcdi18d1k6b9p61144b9k68q48b9p68qj6b9m612jiea28h0jadho8g",
+    "status": "confirmed",
+    "title": "Prélevement mutuelle des motards 254,49",
+    "start": {
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Pessac"
+  },
+  {
+    "id": "_68p3gohoc8sj2bb5cop38b9k74r6cb9p6ssm2bb664q3ip1n71gj8db3ck",
+    "status": "confirmed",
+    "title": "Anniv elo",
+    "start": {
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "_64o62oj56so66b9m6hhm4b9k65h64bb16sojcb9pc8qm4c1m71hj8c1gco",
+    "status": "confirmed",
+    "title": "Projection RapFr utopia",
+    "start": {
+      "dateTime": "2014-11-20T20:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-11-20T21:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Cinéma Utopia, 5 Place Camille Jullian, Bordeaux, FR"
+  },
+  {
+    "id": "_6oqk2ea48cqk6ba284o3ib9k6p1k6ba164pj4b9i850jed1l8ooj8cpo68",
+    "status": "confirmed",
+    "title": "Partiel Anglais",
+    "start": {
+      "dateTime": "2014-12-10T16:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-10T18:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Batiment A10 (Grand Amphi chimie)"
+  },
+  {
+    "id": "_8os3ie258ks34b9o6d346b9k6go38b9p8d144b9h6gqjcga174s3cgpn8o",
+    "status": "confirmed",
+    "title": "Partiel réseau",
+    "start": {
+      "dateTime": "2014-12-15T11:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-15T12:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "A10 GAC"
+  },
+  {
+    "id": "_6gsj2g9i710k6b9g6t24ab9k6h1jiba18cr36b9i6l344dpn6d0jad1l68",
+    "status": "confirmed",
+    "title": "Partiel marketing",
+    "start": {
+      "dateTime": "2014-12-15T08:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-15T10:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "A10 GAC"
+  },
+  {
+    "id": "_6cs46gpo8p2jeb9i74r34b9k6p144ba26crk8b9l6kpk8gpl8p1k8c1n8k",
+    "status": "confirmed",
+    "title": "Partiel RO",
+    "start": {
+      "dateTime": "2014-12-16T08:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-16T10:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "B6 Amphi bio végé 2"
+  },
+  {
+    "id": "_6gsj6d9i60r3eba38l0j0b9k70s3gb9p64r34b9k6oq4cghk7133ihi16g",
+    "status": "confirmed",
+    "title": "Partiel AD",
+    "start": {
+      "dateTime": "2014-12-16T11:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-16T12:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "B6 Amphi bio végé 2"
+  },
+  {
+    "id": "_68pj6di28grjiba16crkcb9k6opkab9o6513aba474qk2ha688r3ae1o68",
+    "status": "confirmed",
+    "title": "Partiel SICF",
+    "start": {
+      "dateTime": "2014-12-18T14:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-18T15:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "A10 GAC"
+  },
+  {
+    "id": "1hpme0fjm7hvchtpa7j40taalg",
+    "status": "confirmed",
+    "title": "Fabien Potencier @ hack.summit()",
+    "start": {
+      "dateTime": "2014-12-01T21:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-01T22:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "https://hacksummit.org"
+  },
+  {
+    "id": "ujl88m2ap81lma9311k52k7eqo",
+    "status": "confirmed",
+    "title": "Hakon Wium Le @ hack.summit()",
+    "start": {
+      "dateTime": "2014-12-02T20:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-02T21:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "https://hacksummit.org"
+  },
+  {
+    "id": "_68o4cdhm691kab9l70s38b9k85134b9o8crj6ba4610k6e9l84o3ichj64",
+    "status": "confirmed",
+    "title": "Hack sUmmiit",
+    "start": {
+      "dateTime": "2014-12-01T12:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-04T13:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "e6q7k8ki1o1ecsool4nmmj9ft0",
+    "status": "confirmed",
+    "title": "Scott Chacon @ hack.summit()",
+    "start": {
+      "dateTime": "2014-12-03T19:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-03T20:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "https://hacksummit.org"
+  },
+  {
+    "id": "_8l1kcgpo8cp46b9h8d1j0b9k6gsk6ba264rjib9j84sj6h1m6p342h1n8o",
+    "status": "confirmed",
+    "title": "Partiel AO",
+    "start": {
+      "dateTime": "2014-12-16T14:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-12-16T17:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "B6 ABV 2"
+  },
+  {
+    "id": "c32van0qhlmc9hqlj807bvsu1g",
+    "status": "confirmed",
+    "title": "Scalability & High performance of legacy php application",
+    "start": {
+      "dateTime": "2015-01-21T18:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2015-01-21T21:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "_65348ghl750k4ba18koj0b9k6d132ba28gq34ba364pjgc9j6kr32dq470",
+    "status": "confirmed",
+    "title": "Nouvel événement",
+    "start": {
+      "dateTime": "2015-01-27T11:30:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2015-01-30T11:15:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false
+  },
+  {
+    "id": "275hi4jj3srk3qu8crt5hjj4l4",
+    "status": "confirmed",
+    "title": "Envoyer courriel a benois-p",
+    "start": {
+      "dateTime": "2014-02-13T16:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "end": {
+      "dateTime": "2014-02-13T17:00:00+01:00",
+      "timezone": "Europe/Brussels"
+    },
+    "attendees": [],
+    "organizer": {
+      "name": "Louis Lainé",
+      "emails": "darksioul6@gmail.com",
+      "self": true
+    },
+    "editable": false,
+    "location": "Université Bordeaux 1, Cours de la Libération, Talence, France"
+  }
+]

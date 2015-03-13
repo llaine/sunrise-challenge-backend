@@ -1,0 +1,64 @@
+{
+  "kind": "calendar#calendarList",
+  "etag": "\"1426116352882000\"",
+  "nextSyncToken": "00001426116352882000",
+  "items": [
+    {
+      "kind": "calendar#calendarListEntry",
+      "etag": "\"1379597153584000\"",
+      "id": "darksioul6@gmail.com",
+      "summary": "darksioul6@gmail.com",
+      "timeZone": "Europe/Brussels",
+      "colorId": "15",
+      "backgroundColor": "#9fc6e7",
+      "foregroundColor": "#000000",
+      "selected": true,
+      "accessRole": "owner",
+      "defaultReminders": [
+        {
+          "method": "popup",
+          "minutes": 30
+        },
+        {
+          "method": "email",
+          "minutes": 30
+        }
+      ],
+      "notificationSettings": {
+        "notifications": [
+          {
+            "type": "eventCreation",
+            "method": "email"
+          },
+          {
+            "type": "eventChange",
+            "method": "email"
+          },
+          {
+            "type": "eventCancellation",
+            "method": "email"
+          },
+          {
+            "type": "eventResponse",
+            "method": "email"
+          }
+        ]
+      },
+      "primary": true
+    },
+    {
+      "kind": "calendar#calendarListEntry",
+      "etag": "\"1421062381338000\"",
+      "id": "obpquhnteak3ou309nm9mtfeicclb5l8@import.calendar.google.com",
+      "summary": "Emploi du temps Master MSMG800",
+      "description": "Emploi du temps Master MSMG800",
+      "timeZone": "UTC",
+      "colorId": "7",
+      "backgroundColor": "#42d692",
+      "foregroundColor": "#000000",
+      "selected": true,
+      "accessRole": "reader",
+      "defaultReminders": []
+    }
+  ]
+}

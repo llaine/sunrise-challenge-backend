@@ -8,7 +8,7 @@ module.exports = (function () {
     'use strict';
 
     var oAuth = require('oauth').OAuth2,
-        confOAuth = require("../conf/oauth.json"),
+        confOAuth = require("../configuration/oauth.json"),
         instance,
         utils = require('./utils'),
         exports = {};

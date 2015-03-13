@@ -10,13 +10,10 @@ var request = require("request"),
     calendarUtil = require("./utils");
 
 
-function handleResponse(err, cbOk, cbError){
-    if(err){
-        cbError(err.error.code);
-    }else{
-        cbOk();
-    }
-}
+/* Contansts */
+var PATH_TO_ROUTING = "../configuration/calendar_ref_api.json";
+
+
 
 /**
  * Creating a new SunriseCal with accessToken properties.
@@ -25,7 +22,7 @@ function handleResponse(err, cbOk, cbError){
  */
 function SunriseCal(accessToken){
     this.accessToken = accessToken;
-    this.ROUTES = require('../conf/calendar_ref_api.json');
+    this.ROUTES = require(PATH_TO_ROUTING);
 }
 /**
  * Simple utils function which add the tokenAccess at the end
@@ -37,6 +34,12 @@ SunriseCal.prototype.tokenizeUrl = function(route) {
     return route + '?access_token=' + this.accessToken;
 };
 
+/**
+ * Format the route in order to put the calendarId params and
+ * add the accessToken GET params at the end.
+ * @param calendarId
+ * @returns {string}
+ */
 SunriseCal.prototype.formatRouteEvents = function (calendarId) {
     return this.tokenizeUrl(this.ROUTES.EVENT_LIST_FOR_CAL + calendarId + '/events/');
 };
@@ -97,6 +100,14 @@ SunriseCal.prototype.getEventsFromCal = function (calendarId, cb) {
     }
 };
 
+
+function handleResponse(err, cbOk, cbError){
+    if(err){
+        cbError(err.error.code);
+    }else{
+        cbOk();
+    }
+}
 
 module.exports = SunriseCal;
 

@@ -8,7 +8,7 @@
     'use strict';
 
     var express = require('express'),
-        configuration = require('./conf/general.json'),
+        configuration = require('./configuration/general.json'),
         oauth = require('./modules/oauth'),
         calendar = require('./rest/calendar'),
         logger = require('./modules/logger'),
@@ -44,8 +44,9 @@
     function log_rest(callback){
         return function (req, res, next) {
             /* Security check for every route.  */
-            checkCredentials(req, res);
+            //checkCredentials(req, res);
             /* Logging all action. */
+
             logger.log(req, "Method " + req.method + " on resource " + req.url);
             callback.call(null, req, res, next);
         }

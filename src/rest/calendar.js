@@ -43,6 +43,7 @@ module.exports = (function () {
                 res.send(400);
                 break;
         }
+        res.end();
     }
 
     /**
@@ -55,7 +56,9 @@ module.exports = (function () {
         SunriseCal = getInstance(req.query.accessToken);
 
         SunriseCal.getCalendar(function (err, calendars) {
-            handleError(err, req, res);
+            if(err){
+                handleError(err, req, res);
+            }
             res.send(calendars);
         });
     };
@@ -71,7 +74,9 @@ module.exports = (function () {
         SunriseCal = getInstance(req.query.accessToken);
 
         SunriseCal.getEventsFromCal(req.params.calendarId, function (err, events) {
-            handleError(err, req, res);
+            if(err){
+                handleError(err, req, res);
+            }
             res.send(events);
         });
     };
