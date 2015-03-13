@@ -1,6 +1,11 @@
 /**
  * sunrise-backend
  *
+ *
+ *
+ * SunriseCal : This object is the proxy, which get the infos to the Google Calendar API
+ * format them and return them as a Resource.
+ *
  * @user llaine
  * @date 11/03/15
  */
@@ -31,7 +36,9 @@ function SunriseCal(accessToken){
  * @returns {string}
  */
 SunriseCal.prototype.tokenizeUrl = function(route) {
-    return route + '?access_token=' + this.accessToken;
+    if(route){
+        return route + '?access_token=' + this.accessToken;
+    }
 };
 
 /**
@@ -41,7 +48,9 @@ SunriseCal.prototype.tokenizeUrl = function(route) {
  * @returns {string}
  */
 SunriseCal.prototype.formatRouteEvents = function (calendarId) {
-    return this.tokenizeUrl(this.ROUTES.EVENT_LIST_FOR_CAL + calendarId + '/events/');
+    if(calendarId){
+        return this.tokenizeUrl(this.ROUTES.EVENT_LIST_FOR_CAL + calendarId + '/events');
+    }
 };
 
 
@@ -51,6 +60,8 @@ SunriseCal.prototype.formatRouteEvents = function (calendarId) {
  * @param cb
  */
 SunriseCal.prototype.getCalendar = function (cb) {
+    if(!this.accessToken) cb(401, null); // Error 401 : Unauthorized
+
     var url = this.tokenizeUrl(this.ROUTES.CALENDAR_LIST);
     /* Fetching the calendar list */
     request(url, function (err, res, body) {
@@ -80,6 +91,8 @@ SunriseCal.prototype.getCalendar = function (cb) {
  * @param cb
  */
 SunriseCal.prototype.getEventsFromCal = function (calendarId, cb) {
+    if(!this.accessToken) return cb(401, null);
+
     if(calendarId){
         /* formating the route with the calendarId params and accessToken. */
         var url = this.formatRouteEvents(calendarId);

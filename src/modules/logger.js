@@ -10,40 +10,48 @@ module.exports = (function () {
     // Import request to simplify proxying
     var exports = {};
 
+    /* Constant */
+
+    var DEBUG = false;
+
     /**
      * The main logging function
      * modified using JavaSCript Ninja tip
      */
     exports.log = function () {
-        if(typeof arguments[0] === "string") {
-            arguments[0] = "[" + formatDate(new Date()) + "] " + arguments[0];
-        } else {
-            /* Assume the parameter is a request */
-            arguments[0] = "[" + formatDate(new Date()) + " from " + arguments[0].connection.remoteAddress + "] " + arguments[1];
-            arguments[1] = "";
-        }
-        try {
-            /* Try first the most common logging method */
-            console.log.apply(console, arguments);
-        } catch (e) {
+        if(DEBUG){
+
+            if(typeof arguments[0] === "string") {
+                arguments[0] = "[" + formatDate(new Date()) + "] " + arguments[0];
+            } else {
+                /* Assume the parameter is a request */
+                arguments[0] = "[" + formatDate(new Date()) + " from " + arguments[0].connection.remoteAddress + "] " + arguments[1];
+                arguments[1] = "";
+            }
             try {
-                /* try to log using opera function */
-                opera.postError.apply(opera, arguments);
+                /* Try first the most common logging method */
+                console.log.apply(console, arguments);
             } catch (e) {
-                /* if everything else failed, then use old school alerts to log */
-                alert(Array.prototype.join.call(arguments, " "));
+                try {
+                    /* try to log using opera function */
+                    opera.postError.apply(opera, arguments);
+                } catch (e) {
+                    /* if everything else failed, then use old school alerts to log */
+                    alert(Array.prototype.join.call(arguments, " "));
+                }
             }
         }
-
     };
 
     /**
      * Log the error in the console.
      */
     exports.error = function () {
-        if(arguments[0]){
-            arguments[0] = '[' + formatDate(new Date()) + '] ERROR : from ' + arguments[0] + '\n';
-            console.error.apply(console, arguments);
+        if(DEBUG){
+            if(arguments[0]){
+                arguments[0] = '[' + formatDate(new Date()) + '] ERROR : from ' + arguments[0] + '\n';
+                console.error.apply(console, arguments);
+            }
         }
     };
 

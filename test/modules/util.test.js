@@ -45,7 +45,7 @@ describe('src/modules/utils : The utils object', function () {
     });
 
     /* The getReccurence function */
-    describe('getRecurrence function', function () {
+    describe('#getRecurrence()', function () {
 
         it('Shoud return the currency in a specific format', function () {
             /* White box tests */
@@ -64,7 +64,7 @@ describe('src/modules/utils : The utils object', function () {
 
     });
 
-    describe('formatCalendar function', function () {
+    describe('#formatCalendar()', function () {
 
         describe('In case of wrong params', function () {
             it('Shoud return null', function () {
@@ -87,7 +87,7 @@ describe('src/modules/utils : The utils object', function () {
         });
     });
 
-    describe("formatEventsFromCalendar function", function () {
+    describe("#formatEventsFromCalendar()", function () {
         describe('In case of wrong params', function () {
             it('Should return null', function () {
                 assert.equal(utils.formatEventsFromCalendar(), null);

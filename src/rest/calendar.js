@@ -29,7 +29,7 @@ module.exports = (function () {
      * @param res
      */
     function handleError(err, req, res){
-        logger.log('Error %s occured on %s -> %s ', err, req.method, req.url);
+        logger.error('%s occured on %s -> %s ', err, req.method, req.url);
 
         res.setHeader('Access-Control-Allow-Origin', '*');
         switch(err){
