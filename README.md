@@ -38,4 +38,4 @@ test/ # All the test files
 
 In order to get a full log, set to true the `DEBUG` constant in [src/modules/logger.js:15](https://github.com/llaine/sunrise-challenge-backend/blob/master/src/modules/logger.js#L15)
 
-
+I also started the [front-end challenge](https://github.com/llaine/sunrise-challenge/tree/gridWithTable)
