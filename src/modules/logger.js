@@ -12,7 +12,7 @@ module.exports = (function () {
 
     /* Constant */
 
-    var DEBUG = true;
+    var DEBUG = false;
 
     /**
      * The main logging function

@@ -13,14 +13,18 @@ $ make test
 
 ## Folder structure 
 
-```
+```bash
 src/ # All sources files.
 	configuration/ # configuration files in json format
 	modules/ # all the modules used in the API
 	rest/ # the respository for the calendar API
 	logBonus.js # The bonus formating library
 	server.js # main files for express
-test/ # Run the test
+test/ # All the test files 
 ```
+
+# Logging features
+
+In order to get a full log, set to true the `DEBUG` constant in src/modules/logger.js:15
 
 

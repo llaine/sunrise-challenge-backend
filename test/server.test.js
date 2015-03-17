@@ -46,7 +46,7 @@ describe('Express server', function () {
      });
     
     describe('With access token', function () {
-        it('Should GET calendars', function (done) {
+        it.skip('Should GET calendars', function (done) {
             request(server)
                 .get('/calendars?accessToken=' + accessToken)
                 .expect(200)
@@ -60,7 +60,7 @@ describe('Express server', function () {
                 });
         });
 
-        it('Should GET events from a calendar', function (done) {
+        it.skip('Should GET events from a calendar', function (done) {
             request(server)
                 .get('/calendars/'+calendarId+'/events?accessToken=' + accessToken)
                 .expect(200)
