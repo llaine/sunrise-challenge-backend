@@ -34,10 +34,6 @@ var output = "HTTP Request\n   URL http://example.com\n   Headers\n      Authori
 describe("Log Bonus", function () {
     describe("#format()", function () {
         it('Should return the desired ouput', function () {
-            console.warn("OUPUT :");
-            console.log(logBonus);
-            console.warn("END OUPUT");
-
             assert.deepEqual(logBonus, output);
         });
     });

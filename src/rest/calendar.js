@@ -16,11 +16,22 @@ module.exports = (function () {
     /**
      * Simple delegation. In case of we need to change the Implemntation
      * of Sunrise Provide with something else ...
-     * @param token
+     * @param req
+     * @param res
      * @returns {SunriseCal}
      */
-    function getInstance(token){
-        return new Sunrise(token);
+    function getInstance(req){
+        if(req.query.accessToken){
+            return new Sunrise(req.query.accessToken);
+        }
+    }
+
+
+    function checkCredentials(req, res){
+        if(!req.query.accessToken){
+            logger.log('Unauthorized access to %s from %s', req.method, req.url);
+            res.sendStatus(401);
+        }
     }
 
     /**
@@ -30,19 +41,23 @@ module.exports = (function () {
      */
     function handleError(err, req, res){
         logger.error('%s occured on %s -> %s ', err, req.method, req.url);
-
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        switch(err){
+        var error = "";
+        switch(error){
             case 404:
-                res.send(404);
+                error = 404;
+                res.sendStatus(404);
                 break;
             case 401:
-                res.send(401);
+                error = 401;
+                res.sendStatus(401);
                 break;
             default:
-                res.send(400);
+                error = 400;
+                res.sendStatus(400);
                 break;
         }
+        logger.log('Error returned with code %s', error);
+
         res.end();
     }
 
@@ -53,14 +68,18 @@ module.exports = (function () {
      * @param res
      */
     exports.getCalendar = function (req, res) {
-        SunriseCal = getInstance(req.query.accessToken);
+        checkCredentials(req, res);
 
-        SunriseCal.getCalendar(function (err, calendars) {
-            if(err){
-                handleError(err, req, res);
-            }
-            res.send(calendars);
-        });
+        SunriseCal = getInstance(req);
+
+        if(SunriseCal){
+            SunriseCal.getCalendar(function (err, calendars) {
+                if(err){
+                    handleError(err, req, res);
+                }
+                res.send(calendars);
+            });
+        }
     };
 
 
@@ -71,14 +90,19 @@ module.exports = (function () {
      * @param res
      */
     exports.getEventsForCalendar = function (req, res) {
-        SunriseCal = getInstance(req.query.accessToken);
+        checkCredentials(req, res);
 
-        SunriseCal.getEventsFromCal(req.params.calendarId, function (err, events) {
-            if(err){
-                handleError(err, req, res);
-            }
-            res.send(events);
-        });
+        SunriseCal = getInstance(req);
+
+        if(SunriseCal){
+
+            SunriseCal.getEventsFromCal(req.params.calendarId, function (err, events) {
+                if(err){
+                    handleError(err, req, res);
+                }
+                res.send(events);
+            });
+        }
     };
 
     return exports;

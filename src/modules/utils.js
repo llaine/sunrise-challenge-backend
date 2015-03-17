@@ -47,10 +47,10 @@ module.exports = (function () {
      * @returns {Array|*}
      */
     exports.formatCalendars = function (calFromGoogle) {
-        if(calFromGoogle){
+        if(calFromGoogle && calFromGoogle !== ""){
             try {
                 var calendars = JSON.parse(calFromGoogle);
-                if(calendars.items.length > 0){
+                if(calendars && calendars.items && calendars.items.length > 0){
                     return calendars.items.map(function (e) {
                         return {
                             id: e.id,
@@ -78,11 +78,11 @@ module.exports = (function () {
      * @returns {Array|*}
      */
     exports.formatEventsFromCalendar = function (eventsFromGoogle) {
-        if(eventsFromGoogle){
+        if(eventsFromGoogle && eventsFromGoogle !== ""){
             try {
                 var events = JSON.parse(eventsFromGoogle);
                 /* Checking if the items are not empty */
-                if(events.items.length > 0){
+                if(events && events.items && events.items.length > 0){
                     return events.items.map(function (e) {
                         var formatedEvent =  {
                             id: e.id,

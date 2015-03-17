@@ -29,11 +29,6 @@
         logger.log("%s Listening at %s", configuration.server_name, configuration.server_port);
     });
 
-    function checkCredentials(req, res){
-        if(!req.query.accessToken){
-            res.redirect('/authenticate');
-        }
-    }
 
     /**
      * This functions logs the path that has been called on the REST API,
@@ -43,12 +38,14 @@
      */
     function log_rest(callback){
         return function (req, res, next) {
-            /* Security check for every route.  */
-            //checkCredentials(req, res);
             /* Logging all action. */
-
             logger.log(req, "Method " + req.method + " on resource " + req.url);
             callback.call(null, req, res, next);
         }
     }
+
+    module.exports = app;
+
+
 })();
+

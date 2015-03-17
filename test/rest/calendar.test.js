@@ -22,11 +22,4 @@ describe('/src/rest/calendar : Repository', function () {
             assert.equal(typeof calendarRepo.getEventsForCalendar, 'function');
         });
     });
-
-
-    describe('#getCalendar()', function () {
-        it('Should return the formated calendar', function (done) {
-            done();
-        });
-    });
 });

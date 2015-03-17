@@ -9,6 +9,7 @@ module.exports = (function () {
 
     var oAuth = require('oauth').OAuth2,
         confOAuth = require("../configuration/oauth.json"),
+        logger = require('../modules/logger'),
         instance,
         utils = require('./utils'),
         exports = {};
@@ -26,6 +27,7 @@ module.exports = (function () {
      * @param res
      */
     exports.getAuthorizeUrl = function (req, res) {
+        logger.log('Requesting authorization from oauth');
         res.redirect(instance.getAuthorizeUrl({response_type:'code', scope: confOAuth.SCOPE, redirect_uri: confOAuth.CB_URL}));
     };
 
@@ -51,7 +53,13 @@ module.exports = (function () {
 
         /* getting the token and redirecting to the calendar. */
         instance.getOAuthAccessToken(code, credentials, function (err, accessToken) {
-            res.redirect('/calendars?accessToken=' + accessToken)
+            if(err){
+                logger.error('Error from getOAuthAccessToken %s, %s', err.statusCode, err.data);
+            }
+
+            if(accessToken){
+                res.send(accessToken)
+            }
         });
     };
 

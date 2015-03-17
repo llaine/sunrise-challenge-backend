@@ -60,8 +60,6 @@ SunriseCal.prototype.formatRouteEvents = function (calendarId) {
  * @param cb
  */
 SunriseCal.prototype.getCalendar = function (cb) {
-    if(!this.accessToken) cb(401, null); // Error 401 : Unauthorized
-
     var url = this.tokenizeUrl(this.ROUTES.CALENDAR_LIST);
     /* Fetching the calendar list */
     request(url, function (err, res, body) {
@@ -91,8 +89,6 @@ SunriseCal.prototype.getCalendar = function (cb) {
  * @param cb
  */
 SunriseCal.prototype.getEventsFromCal = function (calendarId, cb) {
-    if(!this.accessToken) return cb(401, null);
-
     if(calendarId){
         /* formating the route with the calendarId params and accessToken. */
         var url = this.formatRouteEvents(calendarId);
