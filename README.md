@@ -25,6 +25,6 @@ test/ # All the test files
 
 # Logging features
 
-In order to get a full log, set to true the `DEBUG` constant in src/modules/logger.js:15
+In order to get a full log, set to true the `DEBUG` constant in [src/modules/logger.js:15](https://github.com/llaine/sunrise-challenge-backend/blob/master/src/modules/logger.js#L15)
 
 
