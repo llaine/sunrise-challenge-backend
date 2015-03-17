@@ -16,8 +16,9 @@ module.exports = (function () {
     /**
      * Simple delegation. In case of we need to change the Implemntation
      * of Sunrise Provide with something else ...
+     *
      * @param req
-     * @param res
+     * @private
      * @returns {SunriseCal}
      */
     function getInstance(req){
@@ -26,10 +27,15 @@ module.exports = (function () {
         }
     }
 
-
+    /**
+     * Verify if the token is present in the GET params otherwise send an Unauthorized HTTP status.
+     * @private
+     * @param req
+     * @param res
+     */
     function checkCredentials(req, res){
         if(!req.query.accessToken){
-            logger.log('Unauthorized access to %s from %s', req.method, req.url);
+            logger.log('Unauthorized access (without token) to %s from %s', req.method, req.url);
             res.sendStatus(401);
         }
     }

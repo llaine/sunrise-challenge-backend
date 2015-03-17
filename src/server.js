@@ -1,5 +1,14 @@
 /**
  * sunrise-backend
+ * Server file.
+ *
+ * Expose the URL for the API.
+ *
+ * /authenticate : oauth logging.
+ * /authenticate/callback : Give you the accessToken (copy paste the token and add it to all the routes below as a GET params).
+ *
+ * /calendars?accessToken=token : Return all the calendars from the account which has been in oauth.
+ * /calendars/:calendarId/events?accessToken=token : Return all the events from a particular calendar.
  *
  * @user llaine
  * @date 11/03/15
@@ -14,6 +23,11 @@
         logger = require('./modules/logger'),
         app = express();
 
+
+    /* First redirection */
+    app.get('/', function (req, res) {
+        res.redirect('/authenticate');
+    });
 
     /* oauth authentification routes. */
     app.get('/authenticate', log_rest(oauth.getAuthorizeUrl));
@@ -45,7 +59,6 @@
     }
 
     module.exports = app;
-
 
 })();
 

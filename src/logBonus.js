@@ -43,14 +43,22 @@ var logs = [
     'Parsing event [id:2] 0 attendees'
 ];
 
-
+/**
+ * Repeat n string.
+ * Example :
+ * "---".repeat(2) // ------ twice the string.
+ *
+ * @returns {string}
+ */
 String.prototype.repeat = function(){
     return new Array(arguments[0] + 1).join(this);
 };
 
 /**
- * console.log(log) will return the desired output.
+ * The final function return the result stored in log.
  *
+ * @complexity quadratic O(n^2).
+ * @private
  * @return String
  */
 var log = logs.map(function(value, index, array) {
