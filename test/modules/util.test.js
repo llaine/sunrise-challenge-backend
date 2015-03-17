@@ -9,7 +9,9 @@
 /* Assert tools */
 var assert = require('assert');
 /* The module we are going to test */
-var utils = require('../../src/modules/utils');
+var utils = require('../../src/modules/utils'),
+    logger = require('../../src/modules/logger');
+
 
 
 /* Mock data for the test */
@@ -26,7 +28,12 @@ var mockRecurrenceWeekly   = ["RRULE:FREQ=WEEKLY;INTERVAL=1"],
 
 
 describe('src/modules/utils : The utils object', function () {
+    beforeEach(function () {
+        /* Resetting the error function in order to be flooded by error logging in test console. */
+        logger.error = function () {
 
+        };
+    });
     /* Object composition */
     describe('The object is composed by 3 functions', function () {
         assert.equal(typeof utils, 'object');

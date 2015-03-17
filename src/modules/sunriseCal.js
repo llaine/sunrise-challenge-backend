@@ -12,13 +12,20 @@
 
 
 var request = require("request"),
-    calendarUtil = require("./utils");
+    calendarUtil = require("./utils"),
+    logger = require('./logger');
 
 
 /* Contansts */
 var PATH_TO_ROUTING = "../configuration/calendar_ref_api.json";
 
 
+function checkResponseFromGoogleApi(body){
+    if(body && body !== ""){
+        body = JSON.parse(body);
+        console.log(body.error.message);
+    }
+}
 
 /**
  * Creating a new SunriseCal with accessToken properties.
@@ -63,7 +70,7 @@ SunriseCal.prototype.getCalendar = function (cb) {
     var url = this.tokenizeUrl(this.ROUTES.CALENDAR_LIST);
     /* Fetching the calendar list */
     request(url, function (err, res, body) {
-        handleResponse(err,
+        handleResponse(err, body,
             /* When everyhing is fine */
             function () {
                 /*
@@ -93,7 +100,7 @@ SunriseCal.prototype.getEventsFromCal = function (calendarId, cb) {
         /* formating the route with the calendarId params and accessToken. */
         var url = this.formatRouteEvents(calendarId);
         request(url, function (err, res, body) {
-            handleResponse(err,
+            handleResponse(err, body,
                 /* 200 */
                 function () {
                     /* Passing the result without errors */
@@ -110,10 +117,34 @@ SunriseCal.prototype.getEventsFromCal = function (calendarId, cb) {
 };
 
 
-function handleResponse(err, cbOk, cbError){
+/**
+ * Handle response from Google Calendar API.
+ * Deal with 40N errors, and returning the result in different callback
+ * @param err
+ * @param body
+ * @param cbOk
+ * @param cbError
+ */
+function handleResponse(err, body, cbOk, cbError){
     if(err){
         cbError(err.error.code);
     }else{
+        if(body){
+            /* Parsing the body content */
+            body = JSON.parse(body);
+            /* Check if an error occurred from Google Calendar API */
+            if(body.error){
+                /* Log the error */
+                logger.error(
+                    "Unable to send response, error from google API. Code %s, reason: %s",
+                    body.error.code,
+                    body.error.message);
+
+                /* Returning the error code */
+                cbError(body.error.code);
+            }
+        }
+
         cbOk();
     }
 }

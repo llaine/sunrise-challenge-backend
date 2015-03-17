@@ -29,11 +29,9 @@ var logs = [
 var output = "HTTP Request\n   URL http://example.com\n   Headers\n      Authorization: Bearer oauth-token\n      Accept: application/json\n   Timeout 25s\nResponse\n time: 500ms\n length: 85KB\nParsing event [id:1]\n      No title\n      3 attendees\n Parsing event [id:2]\n      Title: \"Lunch\"\n      0 attendees";
 
 
-
-
 describe("Log Bonus", function () {
     describe("#format()", function () {
-        it('Should return the desired ouput', function () {
+        it('Should return the formated log as requested', function () {
             assert.deepEqual(logBonus, output);
         });
     });

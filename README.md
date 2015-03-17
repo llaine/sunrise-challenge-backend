@@ -8,8 +8,19 @@ From [backend challenge](https://github.com/sunrise/jobs/blob/master/instruction
 
 ```bash
 $ npm install 
+```
+
+### Run the server 
+```bash
+$ node src/server.js
+```
+
+### Run the tests
+```bash
 $ make test
 ```
+
+
 
 ## Folder structure 
 

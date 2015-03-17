@@ -20,13 +20,18 @@ var mockFormatedDataForEvents = require('./mock/eventsFormated.json'),
         "EVENT_LIST_FOR_CAL": "https://www.googleapis.com/calendar/v3/calendars/"
     },
     mockToken = "token",
-    mockObject = new SunriseCal(mockToken);
+    mockObject = new SunriseCal(mockToken),
+    logger = require('../../src/modules/logger');
 
-
-var accessToken = "ya29.OQE3-DVrt8KEgKHL1cUWp0Ih_9mGNghYrWBHH2L2fYFoPJRY5t9s3AdEwJaJoeoTjUo8KNYQgUxIuA";
 
 
 describe('src/modules/sunriseCal : SunriseCalendar object', function () {
+    beforeEach(function () {
+        /* Resetting the error function in order to be flooded by error logging in test console. */
+        logger.error = function () {
+
+        };
+    });
 
     describe('Constructor', function () {
         it('Should 2 default properties and 4 functions', function () {
@@ -74,9 +79,9 @@ describe('src/modules/sunriseCal : SunriseCalendar object', function () {
 
     describe('#getCalendar()', function () {
         var mockSunriseCal = new SunriseCal();
-        it('Should return null in case of missing token', function (done) {
+        it('Should return 401 in case of missing token', function (done) {
             mockSunriseCal.getCalendar(function (err, cal) {
-                assert.equal(err, null);
+                assert.equal(err, 401);
                 assert.equal(cal, null);
                 done();
             });
@@ -84,9 +89,9 @@ describe('src/modules/sunriseCal : SunriseCalendar object', function () {
 
         var mockSunriseCalTwo = new SunriseCal("toto");
 
-        it('Should return null in case of wrong token', function (done) {
+        it('Should return 401 in case of wrong token', function (done) {
             mockSunriseCalTwo.getCalendar(function (err, cal) {
-                assert.equal(err, null);
+                assert.equal(err, 401);
                 assert.equal(cal, null);
                 done();
             });
@@ -95,10 +100,10 @@ describe('src/modules/sunriseCal : SunriseCalendar object', function () {
 
     describe('#getEventsFromCal()', function () {
         var mockSunriseCal = new SunriseCal();
-        it('Should return null in case of missing token', function (done) {
+        it('Should return 403 in case of missing token', function (done) {
             var calendarId = mockFormatedDataForCalendars[1].id;
             mockSunriseCal.getEventsFromCal(calendarId, function (err, cal) {
-                assert.equal(err, null);
+                assert.equal(err, 403);
                 assert.equal(cal, null);
                 done();
             });
@@ -106,10 +111,10 @@ describe('src/modules/sunriseCal : SunriseCalendar object', function () {
 
         var mockSunriseCalTwo = new SunriseCal("toto");
 
-        it('Should return null in case of wrong token', function (done) {
+        it('Should return 403 in case of wrong token', function (done) {
             var calendarId = mockFormatedDataForCalendars[1].id;
             mockSunriseCalTwo.getEventsFromCal(calendarId, function (err, cal) {
-                assert.equal(err, null);
+                assert.equal(err, 403);
                 assert.equal(cal, null);
                 done();
             });

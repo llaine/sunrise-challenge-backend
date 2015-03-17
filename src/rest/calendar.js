@@ -36,28 +36,13 @@ module.exports = (function () {
 
     /**
      * Simple function to handle-error from the Google Calendar API
-     * @param err
+     * @param errCode
+     * @param req
      * @param res
      */
-    function handleError(err, req, res){
-        logger.error('%s occured on %s -> %s ', err, req.method, req.url);
-        var error = "";
-        switch(error){
-            case 404:
-                error = 404;
-                res.sendStatus(404);
-                break;
-            case 401:
-                error = 401;
-                res.sendStatus(401);
-                break;
-            default:
-                error = 400;
-                res.sendStatus(400);
-                break;
-        }
-        logger.log('Error returned with code %s', error);
-
+    function handleError(errCode, req, res){
+        logger.error('%s occured on %s -> %s', errCode, req.method, req.url);
+        res.sendStatus(errCode);
         res.end();
     }
 
@@ -76,6 +61,8 @@ module.exports = (function () {
             SunriseCal.getCalendar(function (err, calendars) {
                 if(err){
                     handleError(err, req, res);
+                    /* Returning because the headers have already been sent */
+                    return;
                 }
                 res.send(calendars);
             });
@@ -99,6 +86,8 @@ module.exports = (function () {
             SunriseCal.getEventsFromCal(req.params.calendarId, function (err, events) {
                 if(err){
                     handleError(err, req, res);
+                    /* Returning because the headers have already been sent */
+                    return;
                 }
                 res.send(events);
             });

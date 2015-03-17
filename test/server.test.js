@@ -15,9 +15,6 @@ var request = require('supertest');
 
 var server = require('../src/server');
 
-var accessToken = "ya29.OQE3-DVrt8KEgKHL1cUWp0Ih_9mGNghYrWBHH2L2fYFoPJRY5t9s3AdEwJaJoeoTjUo8KNYQgUxIuA";
-var calendarId = "obpquhnteak3ou309nm9mtfeicclb5l8@import.calendar.google.com";
-
 
 describe('Express server', function () {
 
@@ -44,7 +41,17 @@ describe('Express server', function () {
                 });
         });
      });
-    
+
+    /*
+        Skipping those test because i used with my own Google account with my own calendarId.
+        (Beside the accessToken provided should no longer be valid).
+        I left these for example ONLY!
+        If you remove the .skip, the test will fail for sure!
+     */
+
+    var accessToken = "ya29.OQE3-DVrt8KEgKHL1cUWp0Ih_9mGNghYrWBHH2L2fYFoPJRY5t9s3AdEwJaJoeoTjUo8KNYQgUxIuA";
+    var calendarId = "obpquhnteak3ou309nm9mtfeicclb5l8@import.calendar.google.com";
+
     describe('With access token', function () {
         it.skip('Should GET calendars', function (done) {
             request(server)

@@ -12,7 +12,7 @@ module.exports = (function () {
 
     /* Constant */
 
-    var DEBUG = false;
+    var DEBUG = true;
 
     /**
      * The main logging function
@@ -49,7 +49,7 @@ module.exports = (function () {
     exports.error = function () {
         if(DEBUG){
             if(arguments[0]){
-                arguments[0] = '[' + formatDate(new Date()) + '] ERROR : from ' + arguments[0] + '\n';
+                arguments[0] = '[' + formatDate(new Date()) + '] ERROR ' + arguments[0] + '\n';
                 console.error.apply(console, arguments);
             }
         }
